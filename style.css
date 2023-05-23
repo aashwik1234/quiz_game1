@@ -1,10 +1,11 @@
 body
 {
-	background-image: url(MATH.png);
+	background-image: url("MATH.png");
     background-size: 103%;
 }
 
-	.login_div1 , .login_div2
+
+.login_div1 , .login_div2
 	{
 		background: white;
 		padding: 10px;
@@ -78,4 +79,8 @@ h4{
 }
 h4:hover{
 	text-decoration: underline;
+}
+#player_1_name, #player_2_name{
+	display: inline-block;
+	margin-left: 3px;
 }
